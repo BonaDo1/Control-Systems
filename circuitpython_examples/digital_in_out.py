@@ -1,6 +1,8 @@
 """CircuitPython Essentials Digital In Out example - modified by Evan Weinberg"""
+# import time value
 import time
 import board
+# imports library
 from digitalio import DigitalInOut, Direction, Pull
 
 # LED setup.
